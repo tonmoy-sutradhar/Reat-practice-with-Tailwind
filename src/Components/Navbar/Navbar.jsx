@@ -19,7 +19,7 @@ const Navbar = () => {
         {open === true ? <ImCross></ImCross> : <IoMdMenu></IoMdMenu>}
       </div>
       <ul
-        className={` absolute md:flex md:static   m-4 duration-1000 text-2xl rounded-md font-bold bg-yellow-500 p-4 ${
+        className={` absolute md:flex md:static m-4 md:m-0 duration-1000 text-2xl rounded-md font-bold bg-yellow-500 p-4 ${
           // open ? "" : " hidden"
           open ? "top-4" : " -top-72"
         } `}
